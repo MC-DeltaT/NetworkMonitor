@@ -5,7 +5,7 @@ defmodule NetworkMonitor.MixProject do
     def project() do
         [
             app: :network_monitor,
-            version: "1.0.0",
+            version: "1.0.1",
             elixir: "~> 1.10",
             deps: deps(),
             start_permanent: Mix.env() === :prod,
